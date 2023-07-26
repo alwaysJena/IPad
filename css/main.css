@@ -1,4 +1,10 @@
+html.fixed {
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+}
 body {
+  height: 10000px;
   color: var(--color-font);
   font-size: 16px;
   line-height: 1;
@@ -146,6 +152,10 @@ header .search-wrap {
   top: 0;
   left: 0;
   width: 100%;
+  display: none;
+  /* transition: .4s;
+  visibility: hidden;
+  opacity: 0; */
 }
 header .search {
   max-width: 680px;
@@ -201,7 +211,7 @@ header .search .search-closer:hover {
   opacity: 1;
 }
 header .search .search-canceler {
-
+  display: none;
 }
 header .search .autocompletes {
   width: 100%;
@@ -230,8 +240,13 @@ header .search .autocompletes ul li:hover a {
   color: #0071e3;
 }
 header .clone-menu {
+  display: none;
 } 
 
 header.searching ul.menu > li {
   display: none;
+}
+
+header.searching .search-wrap {
+  display: block;
 }
