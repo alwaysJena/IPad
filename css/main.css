@@ -244,7 +244,8 @@ header .clone-menu {
 } 
 
 header.searching ul.menu > li {
-  display: none;
+  transform: scale(.7g);
+  opacity: 0;
 }
 
 header.searching .search-wrap {
