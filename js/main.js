@@ -2,7 +2,7 @@ import ipads from '../data/ipads.js'
 import navigations from '../data/navigations.js'
 
 
-// 장바구니!
+// 장바구니
 // 장바구니 관련 요소 찾기.
 const basketStarterEl = document.querySelector('header .basket-starter')
 const basketEl = basketStarterEl.querySelector('.basket')
@@ -32,7 +32,7 @@ function hideBasket() {
 }
 
 
-// 헤더 검색!
+// 헤더 검색
 // 헤더 검색 관련 요소 찾기.
 const headerEl = document.querySelector('header')
 const headerMenuEls = [...headerEl.querySelectorAll('ul.menu > li')]
@@ -86,7 +86,7 @@ function stopScroll() {
   document.documentElement.classList.add('fixed')
 }
 
-// 헤더 메뉴 토글! [모바일]
+// 헤더 메뉴 토글 [모바일]
 const menuStarterEl = document.querySelector('header .menu-starter')
 menuStarterEl.addEventListener('click', () => {
   if (headerEl.classList.contains('menuing')) {
@@ -99,7 +99,7 @@ menuStarterEl.addEventListener('click', () => {
   }
 })
 
-// 헤더 검색! [모바일]
+// 헤더 검색 [모바일]
 const searchTextFieldEl = document.querySelector('header .textfield')
 const searchCancelEl = document.querySelector('header .search-canceler')
 searchTextFieldEl.addEventListener('click', () => {
