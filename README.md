@@ -2,7 +2,7 @@
 # 🍏 iPad 홈페이지
 
 아이패드 제품 페이지를 만드는 예제입니다.
-[배포페이지 가보기 -> ](https://i-pad-one.vercel.app/)
+[배포페이지](https://i-pad-one.vercel.app/)
 
 ![Screenshots](./images/screenshot1.jpg)
 
