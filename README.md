@@ -1,5 +1,5 @@
 
-# 🍏 iPad 홈페이지
+# 🍏 iPad 홈
 
 아이패드 제품 페이지를 만드는 예제입니다.
 [배포페이지](https://i-pad-one.vercel.app/)
@@ -15,9 +15,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
 ```
 
-### Google Fonts
-
-Apple SF Pro 폰트는 공유 및 배포할 수 없기 때문에,  
+### Google Fonts  
 가장 유사한 웹 폰트로 대체합니다.
 
 영문: [Roboto](https://fonts.google.com/specimen/Roboto)
